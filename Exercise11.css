@@ -1,0 +1,54 @@
+*{
+    box-sizing: box-border;
+}
+body{
+    background-color: white;
+}
+div{
+    margin: 3px;
+    border: 5px solid;
+    padding-right: 40px;
+    padding-top: 5px;
+    height: 180px;
+    width: 1300px;
+}
+header{
+    height: 150px;
+    width: 230px;
+    float: left;
+    margin: 10px;
+    border: 3px solid;
+}
+nav{
+    height: 150px;
+    width: 1038px;
+    float: none;
+    overflow: hidden;
+    border-bottom: 1000px;
+    border: 3px solid;
+}
+.internal{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 100px;
+    border: 3px solid;
+}
+section{
+    margin: 15px;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+@media screen and (max-width:200px) {
+    section{
+        width: 100px;
+    }
+}
+footer{
+    border: 5px solid
+}
